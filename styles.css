@@ -1,0 +1,59 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+/* CSS for animations and transitions */
+.button {
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  transition: color 0.5s ease;
+}
+
+h1:hover {
+  color: navy;
+}
+
+/* CSS for animations and transitions */
+* {
+  color: black;
+}
+
+.button {
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  transition: color 0.5s ease;
+}
+
+h1:hover {
+  color: navy;
+}
+*background-color: animations;
