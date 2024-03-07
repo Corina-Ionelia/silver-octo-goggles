@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitație de a veni acasă</title>
+    <meta name="description" content="Invitație de a veni acasă">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+        /* Animated background */
+        body {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #ff99cc, #ffccff, #99ccff, #ccffff, #99ccff, #ffccff);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Content styles */
+        .container {
+            text-align: center;
+            z-index: 1;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: black;
+            /* Ensure text color is black */
+        }
+
+
+
+
+        /* Button styles */
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            color: black;
+            transition: transform 0.3s ease;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>Laur Vino Acasă</h1>
+        <div class="button-container">
+            <a href="nu-vin.html" class="button red">Nu-vin</a>
+            <a href="vin-acum.html" class="button yellow">Vin-acum</a>
+            <a href="scuze-am-intarziat.html" class="button green">Scuze, am întârziat</a>
+            <a href="alt-buton.html" class="button blue">Alt buton</a>
+        </div>
+    </div>
+</body>
+
+</html>
